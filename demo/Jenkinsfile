@@ -10,7 +10,7 @@ pipeline {
         stage("Coucou") {
 
             steps{
-                sh "echo 'Coucou, $(env.NAME)'"
+                echo 'Coucou, $(env.NAME)'
             }
 
 
