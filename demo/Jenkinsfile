@@ -1,0 +1,30 @@
+pipeline {
+    agent { any }
+
+    environment{
+        NAME = "Cyrus"
+    }
+
+    stages{
+
+        stage("Coucou") {
+
+            steps{
+                sh "echo 'Coucou, $(env.NAME)'"
+            }
+
+
+
+
+
+
+        }
+
+
+
+    }
+
+
+
+
+}
